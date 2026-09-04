@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Birthday — Celebration</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-main">For Aashita</div>
+        <div class="brand-sub">A quiet page of gratitude & memories</div>
+      </div>
+      <nav class="nav-actions">
+        <a href="#message" class="link">Message</a>
+        <a href="#gallery" class="link">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-left reveal">
+        <h1 class="hero-title">Happy Birthday, <span class="accent">Aashita</span></h1>
+        <p class="hero-sub">A small page for the person who makes ordinary days feel like home.</p>
+        <div class="hero-cta">
+          <a href="#message" class="btn">Read My Message</a>
+          <a href="#gallery" class="btn ghost">View Gallery</a>
+        </div>
+      </div>
+
+      <div class="hero-right reveal" id="hero-card">
+        <div class="photo-frame" id="parallax">
+          <img src="img/hero.jpg" alt="Hero photo" id="hero-img">
+          <div class="frame-badge">25 • Years</div>
+        </div>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <span style="--d:0.6; --s:36px"></span>
+        <span style="--d:0.9; --s:18px"></span>
+        <span style="--d:1.4; --s:24px"></span>
+      </div>
+    </section>
+
+    <section id="message" class="message-section container reveal">
+      <h2 class="section-title">A Note From Me</h2>
+      <article class="message-card">
+        <!-- 250-word sample message. Replace with your own (I left this area intentionally editable). -->
+        <p>
+          Today I celebrate you — not only because the calendar tells me to, but because every day with you
+          teaches me what gentle courage, stubborn kindness and contagious laughter look like. You fill
+          ordinary moments with color: the quiet mornings we share coffee, the way you hum when you think I'm
+          not listening, the small, brave choices you make that show what a beautiful person you are.
+        </p>
+        <p>
+          I don't have grand words that change the world, only the small promise that I will try to be the
+          person who sees you clearly, supports your quiet ambitions, and keeps making space for your light.
+          If life is a story, you are the chapters I re-read — the parts I am still discovering and eager
+          to keep exploring. You deserve soft comforts, loud celebrations, and every dream coming true.
+        </p>
+        <p>
+          Keep being you — curious, fierce, tender. Thank you for the memory of a hand in mine, for patience
+          when I'm clumsy, and for every laugh that made our days brighter. Happy birthday, love — here's
+          to many more years of simple magic, shared glances, and the quiet certainty that we belong to each
+          other.
+        </p>
+      </article>
+    </section>
+
+    <section id="gallery" class="gallery-section container">
+      <h2 class="section-title reveal">Moments & Memories</h2>
+      <div class="gallery-grid reveal">
+        <!-- Add your images into img/ with these names or replace the srcs -->
+        <img src="img/photo1.jpg" alt="Memory 1" class="gallery-item">
+        <img src="img/photo2.jpg" alt="Memory 2" class="gallery-item">
+        <img src="img/photo3.jpg" alt="Memory 3" class="gallery-item">
+        <img src="img/photo4.jpg" alt="Memory 4" class="gallery-item">
+        <img src="img/photo5.jpg" alt="Memory 5" class="gallery-item">
+        <img src="img/photo6.jpg" alt="Memory 6" class="gallery-item">
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lb-close" class="lb-close" aria-label="Close">&times;</button>
+      <img id="lb-img" src="" alt="Expanded photo">
+      <div id="lb-caption" class="lb-caption"></div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Made with love — drop your images into the img/ folder and replace the message when you're ready.</p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
